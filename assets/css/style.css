@@ -1,0 +1,133 @@
+.moe {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/qbkls/qbkls.png");
+    position: relative;
+}
+
+.curly {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    height: 10%;
+    background: #ff944d;
+    color: white;
+    padding: 2%;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.larry {
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    height: 30%;
+    background: #ffffb3;
+    color: green;
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+.magic-number {
+float: left;
+position: absolute;
+left: 5%;
+height: 10%;
+top: 2%;
+background-color: #80ffbf;
+color: purple;
+padding: 2%;
+margin-top: 2%;
+font-size: 16px;
+}
+
+#wlcount {
+float: left;
+height:10%;
+background-color: #4dffff;
+color: green;
+padding: 2%;
+margin-top: 2%;
+margin-left: 10%;
+font-size: 16px;
+}
+
+#wins {
+    float: left;
+}
+
+#win-number {
+    float: left;
+}
+
+#losses {
+    float: left;
+}
+
+#loss-number {
+    float: left;
+}
+
+#crystalpics {
+    clear: both;
+    height:10%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#blue {
+    float: left;
+    height: 15%;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#red {
+    float: left;
+    height: 15%;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#green {
+    float: left;
+    height: 15%;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#orange {
+    float: left;
+    height: 15%;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#bill {
+    clear: both;
+    position: relative;
+    left: 5%;
+    height: 2%;
+    background-color: #00e6e6;
+    color: white;
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+#score {
+    position: absolute;
+    left: 5%;
+    height: 10%;
+    background-color: #00e6e6;
+    color: white;
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 20px;
+}
