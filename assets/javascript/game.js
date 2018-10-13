@@ -10,7 +10,7 @@ function restart() {
     console.log(magicnumber);
     var bluenumber = Math.floor(Math.random()*12) + 1;
     console.log(bluenumber);
-    $("#blue").attr("points", "muffin");
+    $("#blue").attr("points", bluenumber);
     console.log($("#blue").attr("points"));
     $("#red").data("points", Math.floor(Math.random()*12) + 1);
     $("#green").data("points", Math.floor(Math.random()*12) + 1);
