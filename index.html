@@ -4,11 +4,10 @@
     <meta charset="utf-8" />
     <title>Crystal Collector Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type ="text/javascript" src="assets/javascript/gameversion4.js"></script>
-
 </head>
 <body>
     <div class = "container-fluid moe">
@@ -27,13 +26,13 @@
             </div>
         </div> 
         <div class="row">
-            <div class="magic-number col-2">40</div>
+            <div class="magic-number col-2"> </div>
             <div id = "wlcount" class = "col-1"> 
                 <p id="wins">wins:</p>
-                <p id="win-number">0</p>  
+                <p id="win-number"> </p>  
                 <br>
                 <p id="losses">losses: </p>
-                <p id="loss-number">0</p>
+                <p id="loss-number"> </p>
             </div>
         </div>
         <div class="row">
@@ -45,11 +44,15 @@
             </div>
         </div>  
         <div class= "row">
-            <div id="bill" class = "col-2">Your score is:</div>        
-        </div>
-        <div class-="row">
-            <div id="score" class = "col-2">0</div>
+            <div id="bill" class = "col-2">
+                Your score is:
+                <div id="score" class = "col-2"> </div>
+            </div>        
         </div>
     </div>
+
+<script type ="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+
+
 </html>

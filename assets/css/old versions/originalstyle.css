@@ -22,12 +22,12 @@
     position: absolute;
     left: 5%;
     top: 2%;
-    height: 20%;
+    height: 30%;
     background: #ffffb3;
     color: green;
     padding: 2%;
     margin-top: 2%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .magic-number {
@@ -119,4 +119,15 @@ font-size: 16px;
     padding: 2%;
     margin-top: 2%;
     font-size: 16px;
+}
+
+#score {
+    position: absolute;
+    left: 5%;
+    height: 10%;
+    background-color: #00e6e6;
+    color: white;
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 20px;
 }
