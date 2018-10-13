@@ -3,18 +3,18 @@ var magicnumber = Math.floor(Math.random()*120) + 19;
 var winnum = $("#win-number").text;
 var lossnum = $("#loss-number").text;
 
+function setpoints (n) {
+var c =  Math.floor(Math.random()*12) + 1;
+n.val(c);
+}
+
 function restart() {
     score = 0;
     console.log(score);
     magicnumber = Math.floor(Math.random()*120) + 19;
     console.log(magicnumber);
-    var bluenumber = Math.floor(Math.random()*12) + 1;
-    console.log(bluenumber);
-    $("#blue").attr("points", "muffin");
-    console.log($("#blue").attr("points"));
-    $("#red").data("points", Math.floor(Math.random()*12) + 1);
-    $("#green").data("points", Math.floor(Math.random()*12) + 1);
-    $("#orange").data("points", Math.floor(Math.random()*12) + 1);
+    setpoints($("#blue"));
+    console.log($("#blue").val() );
     }
 
 restart();
@@ -40,4 +40,3 @@ $(".crystal").on("click", function() {
     restart();
     }
 })
-
